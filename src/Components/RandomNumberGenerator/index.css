@@ -1,0 +1,85 @@
+.app-containerb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .random-number-generator-containerr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    width: 80%;
+    border-radius: 16px;
+    border: 1px solid #e4ebf3;
+    padding: 36px;
+    box-shadow: 0px 4px 16px 0px #eaebed;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .random-number-generator-containerr {
+      width: 35%;
+      max-width: 500px;
+    }
+  }
+  
+  .headingr {
+    text-align: center;
+    color: #8cf3e2;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .headingr {
+      font-size: 24px;
+    }
+  }
+  
+  .descriptionr {
+    text-align: center;
+    color: #333333;
+    font-family: 'Roboto';
+    font-size: 14px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .descriptionr {
+      font-size: 18px;
+    }
+  }
+  
+  .generate-buttonr {
+    background-color: #f883bd;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    margin-top: 14px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .random-numberr {
+    color: #0b69ff;
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 24px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .random-numberr {
+      font-size: 48px;
+    }
+  }
